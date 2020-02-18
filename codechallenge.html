@@ -1,0 +1,74 @@
+<html>
+<head>
+	<title> Arithmetic operations </title>
+ <script  type="text/javascript">
+	function add() 
+	{
+		var a,b,c,n1,n2;
+		n1=window.prompt("Enter the value of A","");
+		a=parseInt(n1);
+		n2=window.prompt("Enter the value of B","");
+		b=parseInt(n2);
+		c=a+b;
+		alert("Sum is " + c);
+	}
+	function sub() 
+	{
+		var a,b,c,n1,n2;
+		n1=window.prompt("Enter the value of A","");
+		a=parseInt(n1);
+		n2=window.prompt("Enter the value of B","");
+		b=parseInt(n2);
+		c=a-b;
+		alert("Difference is " + c);
+	}
+	function mul() 
+	{
+		var a,b,c,n1,n2;
+		n1=window.prompt("Enter the value of A","");
+		a=parseInt(n1);
+		n2=window.prompt("Enter the value of B","");
+		b=parseInt(n2);
+		c=a*b;
+		alert("Product is " + c);
+	}
+	
+
+
+function div() 
+	{
+		var a,b,c,n1,n2;
+		n1=window.prompt("Enter the value of A");
+		a=parseInt(n1);
+		n2=window.prompt("Enter the value of B","");
+		b=parseInt(n2);
+		c=a/b;
+		alert("Quotient is " + c);
+	}
+ </script>
+</head>
+	<body>
+	<br>
+	<br>
+	<b><center> ARITHMETIC OPERATION </center></b>
+<form>
+	<br>
+	<br>
+	<center>
+	<br>
+	<input type="button" value=" ADDITION  " onclick = "add()">
+	<br>
+	<br>
+	<input type="button" value="SUBTRACT" onclick = "sub()">
+	<br>
+	<br>
+	<input type="button" value=" MULTIPLY  " onclick = "mul()">
+	<br>
+	<br>
+	<input type="button" value="   DIVISION   " onclick = "div()">
+	<br>
+	</center>
+	<br>
+</form>
+</body>
+</html>
